@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
         integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css" class="stylesheet" />
     <title> Settings | Kakao Clone </title>
 </head>
 
@@ -25,13 +26,13 @@
         </div>
     </div>
     <header class="header">
-        <div class="header__header-columm">
+        <div class="header__header-column">
             <a href="more.html" class="header__back-btn">
-                <i class="fas fa-arrow-left fa-2x"></i>
+                <i class="fas fa-arrow-left fa"></i>
             </a>
             <h1 class="header__title">Settings</h1>
         </div>
-        <div class="header__header-columm">
+        <div class="header__header-column">
 
             <span class="header__icon">
                 <i class="fas fa-search"></i>
@@ -61,7 +62,33 @@
                 </li>
             </ul>
         </section>
+
+        <section class="setting__sections">
+            <ul class="setting__list">
+                <li class="settings__setting">
+                    <span class="settings__icon">
+                        <i class="fas fa-lock"></i>
+                    </span>
+                    <span class="settings__title">Privacy</span>
+                </li>
+                <li class="settings__setting">
+                    <span class="settings__icon">
+                        <i class="fas fa-bell"></i>
+                    </span>
+                    <span class="settings__title">Notifications</span>
+                </li>
+                <li class="settings__setting">
+                    <span class="settings__icon">
+                        <i class="fas fa-user"></i>
+                    </span>
+                    <span class="settings__title">Friends</span>
+                </li>
+            </ul>
+        </section>
     </main>
+    <div class="bigScreen">
+        <span class="bigScreen__text">Please make your screen small</span>
+    </div>
 </body>
 
 </html>
