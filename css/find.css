@@ -1,36 +1,51 @@
 .find {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .find .find__header-list {
-    display: flex; /* 아이콘들을 서로 떨어뜨려 놓기 위함 */
-    justify-content: space-around;
+  display: flex; /* 아이콘들을 서로 떨어뜨려 놓기 위함 */
+  justify-content: space-around;
 }
 
 .find .header-btn {
-    display: flex; /* title를 icon 밑에 놓고 가운데 정렬 시키기 위함 */
-    flex-direction: column;
-    align-items: center;
+  display: flex; /* title를 icon 밑에 놓고 가운데 정렬 시키기 위함 */
+  flex-direction: column;
+  align-items: center;
 }
 
-.find .header-btn__title{
-    display: block;
-    margin-top: 20px;
-    font-size: 14px;
+.find .header-btn__title {
+  display: block;
+  margin-top: 20px;
+  font-size: 14px;
 }
 
 .find .header-btn__icon {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 .find .find__recommended {
-    margin-top: 30px;
-    padding-top: 15px;
-    border-top: 1px solid #f7f7f7;
+  margin-top: 30px;
+  padding-top: 15px;
+  border-top: 1px solid #f7f7f7;
 }
 
 .find .find__title {
-    font-size: 12px;
-    opacity: 0.7;
-    margin-bottom: 20px;
+  font-size: 12px;
+  opacity: 0.7;
+  margin-bottom: 20px;
+}
+
+.nav .nav__badge {
+  position: absolute;
+  top: -7px;
+  right: -7px;
+  font-size: 14px;
+  color: white;
+  background-color: #dc5d46;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
 }

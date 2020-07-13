@@ -1,45 +1,60 @@
 .more .more__btn-list,
 .more .more__suggestions-list {
-    margin: 30px 10px;
-    display: flex;
-    align-items: center;
+  margin: 30px 10px;
+  display: flex;
+  align-items: center;
 }
 
 .more__btn-list .more__btn,
 .more .suggestion {
-    margin-right: 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    cursor: progress;
+  margin-right: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: progress;
 }
 
 .more__btn .more__btn-title {
-    font-size: 14px;
-    margin-top: 15px;
+  font-size: 14px;
+  margin-top: 15px;
 }
 
 .more .more__suggestions {
-    padding-top: 20px;
-    border-top: 1px solid #f7f7f7;
+  padding-top: 20px;
+  border-top: 1px solid #f7f7f7;
 }
 
-.more  .more__title {
-    opacity: 0.8;
-    margin-bottom: 20px;
+.more .more__title {
+  opacity: 0.8;
+  margin-bottom: 20px;
 }
 
 .suggestion .suggestion__title {
-    font-size: 12px;
-    margin-top: 15px;
+  font-size: 12px;
+  margin-top: 15px;
 }
 
 .suggestion__icon i {
-    font-size: 28px;
-    background-color: #fce006;
-    padding: 10px;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  font-size: 28px;
+  background-color: #fce006;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav .nav__badge {
+  position: absolute;
+  top: -7px;
+  right: -7px;
+  font-size: 14px;
+  color: white;
+  background-color: #dc5d46;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
 }

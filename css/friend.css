@@ -1,72 +1,155 @@
 .friend {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .friend .friend__avatar {
-    width: 50px;
-    border-radius: 40%;
+  width: 50px;
+  border-radius: 40%;
 }
 
-.friend__avatar.g-avatar { /* .friend__avatar와 .g-avatar 둘 다 적용됨 */
-    width: 70px; 
+.friend__avatar {
+  height: 50px;
+  cursor: pointer;
 }
 
-.friend__avatar.m-avatar { /* .friend__avatar와 .g-avatar 둘 다 적용됨 */
-    width: 60px; 
+.friend__avatar.g-avatar {
+  width: 70px;
+  height: 70px;
+}
+
+.friend__avatar.m-avatar {
+  width: 60px;
+  height: 60px;
+}
+
+.m-avatar {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #a5c6e8;
+  cursor: pointer;
+}
+
+.g-avatar {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #a5c6e8;
+  cursor: pointer;
+}
+
+.g-avatar i {
+  color: #bcd3eb;
+  padding: 10px;
+  font-size: 26px;
+}
+
+.m-avatar i {
+  color: #bcd3eb;
+  padding: 10px;
+  font-size: 24px;
 }
 
 .friend .friend__column {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .friend .friend__avatar {
-    margin-right: 15px;
+  margin-right: 15px;
+}
+
+.channel__avatar {
+  height: 50px;
+  border-radius: 40%;
+  background-color: #fce006;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.channel__buble {
+  width: 24px;
+  height: 24px;
+  background-color: black;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fce006;
+  font-size: 14px;
 }
 
 .friend__content .friend__name {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: 600;
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
 }
 
 .friend__content .friend__status,
 .friend__content .friend__bottom-text,
 .friend .chat__timestamp {
-    opacity: 0.6;
+  opacity: 0.6;
 }
 
-.friend__content .friend__bottom-text { /* index.html에만 있는 클래스 */
-    font-size: 14px;
+.friend__content .friend__bottom-text {
+  /* index.html에만 있는 클래스 */
+  font-size: 14px;
 }
 
 .friend__content .friend__status,
-.friend .chat__timestamp { /* friends.html, more.html에 있는 클래스 */
-    font-size: 12px;
+.friend .chat__timestamp {
+  /* friends.html, more.html에 있는 클래스 */
+  font-size: 12px;
 }
 
 .friend .friend__now-listening {
-    padding: 5px 10px;
-    border-radius: 15px;
-    border: 2px solid #52e084;
-    font-size: 14px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  border: 2px solid #52e084;
+  font-size: 12px;
 }
 
 .friend__now-listening span {
-    opacity: 0.7;
+  font-size: 14px;
+  opacity: 0.7;
 }
 
 .friend__now-listening i {
-    font-size: 12px;
+  font-size: 12px;
+  margin-left: 5px;
 }
 
 .friend__add-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f5f5f5;
-    padding: 10px 15px;
-    border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.chat_num {
+  position: absolute;
+  right: 20px;
+  font-size: 14px;
+  color: white;
+  background-color: #dc5d46;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  margin-top: 5px;
 }
